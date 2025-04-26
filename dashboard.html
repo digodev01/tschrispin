@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <h2>Pesquisar Serial ou Palete</h2>
+  
+  <!-- Área para digitar os seriais -->
+  <textarea id="serial" placeholder="Cole um ou mais seriais aqui..." rows="5"></textarea>
+
+  <!-- Botões de ação -->
+  <button onclick="buscarSerial()">Buscar</button>
+  <button onclick="copiarTabela()">Copiar resultados</button>
+  <button onclick="limpar()">Limpar</button>
+
+  <!-- Tabela para mostrar os resultados -->
+  <table id="resultado">
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
